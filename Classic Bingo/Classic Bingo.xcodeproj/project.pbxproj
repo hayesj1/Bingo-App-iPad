@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ED22B171F6C4038008FDD79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED22B161F6C4038008FDD79 /* AppDelegate.swift */; };
+		9ED22B191F6C4038008FDD79 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED22B181F6C4038008FDD79 /* FirstViewController.swift */; };
+		9ED22B1B1F6C4038008FDD79 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED22B1A1F6C4038008FDD79 /* SecondViewController.swift */; };
+		9ED22B1E1F6C4038008FDD79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED22B1C1F6C4038008FDD79 /* Main.storyboard */; };
+		9ED22B201F6C4038008FDD79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED22B1F1F6C4038008FDD79 /* Assets.xcassets */; };
+		9ED22B231F6C4038008FDD79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED22B211F6C4038008FDD79 /* LaunchScreen.storyboard */; };
+		9ED22B2E1F6C4038008FDD79 /* Classic_BingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED22B2D1F6C4038008FDD79 /* Classic_BingoTests.swift */; };
+		9ED22B391F6C4038008FDD79 /* Classic_BingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED22B381F6C4038008FDD79 /* Classic_BingoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ED22B2A1F6C4038008FDD79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ED22B031F6C3F40008FDD79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ED22B121F6C4038008FDD79;
+			remoteInfo = "Classic Bingo";
+		};
+		9ED22B351F6C4038008FDD79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ED22B031F6C3F40008FDD79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ED22B121F6C4038008FDD79;
+			remoteInfo = "Classic Bingo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9ED22B091F6C3F93008FDD79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ED22B0A1F6C3F93008FDD79 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		9ED22B0B1F6C3F93008FDD79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9ED22B0C1F6C3F93008FDD79 /* BingoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoViewController.swift; sourceTree = "<group>"; };
+		9ED22B0D1F6C3F93008FDD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ED22B0E1F6C3F93008FDD79 /* UserPrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPrefsViewController.swift; sourceTree = "<group>"; };
+		9ED22B131F6C4038008FDD79 /* Classic Bingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classic Bingo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED22B161F6C4038008FDD79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9ED22B181F6C4038008FDD79 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		9ED22B1A1F6C4038008FDD79 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9ED22B1D1F6C4038008FDD79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ED22B1F1F6C4038008FDD79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ED22B221F6C4038008FDD79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9ED22B241F6C4038008FDD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ED22B291F6C4038008FDD79 /* Classic BingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Classic BingoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED22B2D1F6C4038008FDD79 /* Classic_BingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classic_BingoTests.swift; sourceTree = "<group>"; };
+		9ED22B2F1F6C4038008FDD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ED22B341F6C4038008FDD79 /* Classic BingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Classic BingoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED22B381F6C4038008FDD79 /* Classic_BingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classic_BingoUITests.swift; sourceTree = "<group>"; };
+		9ED22B3A1F6C4038008FDD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ED22B101F6C4038008FDD79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED22B261F6C4038008FDD79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED22B311F6C4038008FDD79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ED22B021F6C3F40008FDD79 = {
+			isa = PBXGroup;
+			children = (
+				9ED22B091F6C3F93008FDD79 /* Assets.xcassets */,
+				9ED22B0A1F6C3F93008FDD79 /* Base.lproj */,
+				9ED22B0B1F6C3F93008FDD79 /* AppDelegate.swift */,
+				9ED22B0C1F6C3F93008FDD79 /* BingoViewController.swift */,
+				9ED22B0D1F6C3F93008FDD79 /* Info.plist */,
+				9ED22B0E1F6C3F93008FDD79 /* UserPrefsViewController.swift */,
+				9ED22B151F6C4038008FDD79 /* Classic Bingo */,
+				9ED22B2C1F6C4038008FDD79 /* Classic BingoTests */,
+				9ED22B371F6C4038008FDD79 /* Classic BingoUITests */,
+				9ED22B141F6C4038008FDD79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ED22B141F6C4038008FDD79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ED22B131F6C4038008FDD79 /* Classic Bingo.app */,
+				9ED22B291F6C4038008FDD79 /* Classic BingoTests.xctest */,
+				9ED22B341F6C4038008FDD79 /* Classic BingoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ED22B151F6C4038008FDD79 /* Classic Bingo */ = {
+			isa = PBXGroup;
+			children = (
+				9ED22B161F6C4038008FDD79 /* AppDelegate.swift */,
+				9ED22B181F6C4038008FDD79 /* FirstViewController.swift */,
+				9ED22B1A1F6C4038008FDD79 /* SecondViewController.swift */,
+				9ED22B1C1F6C4038008FDD79 /* Main.storyboard */,
+				9ED22B1F1F6C4038008FDD79 /* Assets.xcassets */,
+				9ED22B211F6C4038008FDD79 /* LaunchScreen.storyboard */,
+				9ED22B241F6C4038008FDD79 /* Info.plist */,
+			);
+			path = "Classic Bingo";
+			sourceTree = "<group>";
+		};
+		9ED22B2C1F6C4038008FDD79 /* Classic BingoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9ED22B2D1F6C4038008FDD79 /* Classic_BingoTests.swift */,
+				9ED22B2F1F6C4038008FDD79 /* Info.plist */,
+			);
+			path = "Classic BingoTests";
+			sourceTree = "<group>";
+		};
+		9ED22B371F6C4038008FDD79 /* Classic BingoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9ED22B381F6C4038008FDD79 /* Classic_BingoUITests.swift */,
+				9ED22B3A1F6C4038008FDD79 /* Info.plist */,
+			);
+			path = "Classic BingoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ED22B121F6C4038008FDD79 /* Classic Bingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ED22B3B1F6C4038008FDD79 /* Build configuration list for PBXNativeTarget "Classic Bingo" */;
+			buildPhases = (
+				9ED22B0F1F6C4038008FDD79 /* Sources */,
+				9ED22B101F6C4038008FDD79 /* Frameworks */,
+				9ED22B111F6C4038008FDD79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Classic Bingo";
+			productName = "Classic Bingo";
+			productReference = 9ED22B131F6C4038008FDD79 /* Classic Bingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ED22B281F6C4038008FDD79 /* Classic BingoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ED22B3E1F6C4038008FDD79 /* Build configuration list for PBXNativeTarget "Classic BingoTests" */;
+			buildPhases = (
+				9ED22B251F6C4038008FDD79 /* Sources */,
+				9ED22B261F6C4038008FDD79 /* Frameworks */,
+				9ED22B271F6C4038008FDD79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ED22B2B1F6C4038008FDD79 /* PBXTargetDependency */,
+			);
+			name = "Classic BingoTests";
+			productName = "Classic BingoTests";
+			productReference = 9ED22B291F6C4038008FDD79 /* Classic BingoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9ED22B331F6C4038008FDD79 /* Classic BingoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ED22B411F6C4038008FDD79 /* Build configuration list for PBXNativeTarget "Classic BingoUITests" */;
+			buildPhases = (
+				9ED22B301F6C4038008FDD79 /* Sources */,
+				9ED22B311F6C4038008FDD79 /* Frameworks */,
+				9ED22B321F6C4038008FDD79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ED22B361F6C4038008FDD79 /* PBXTargetDependency */,
+			);
+			name = "Classic BingoUITests";
+			productName = "Classic BingoUITests";
+			productReference = 9ED22B341F6C4038008FDD79 /* Classic BingoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ED22B031F6C3F40008FDD79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					9ED22B121F6C4038008FDD79 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 29M4UP8XVQ;
+						ProvisioningStyle = Automatic;
+					};
+					9ED22B281F6C4038008FDD79 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 29M4UP8XVQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9ED22B121F6C4038008FDD79;
+					};
+					9ED22B331F6C4038008FDD79 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 29M4UP8XVQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9ED22B121F6C4038008FDD79;
+					};
+				};
+			};
+			buildConfigurationList = 9ED22B061F6C3F40008FDD79 /* Build configuration list for PBXProject "Classic Bingo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ED22B021F6C3F40008FDD79;
+			productRefGroup = 9ED22B141F6C4038008FDD79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ED22B121F6C4038008FDD79 /* Classic Bingo */,
+				9ED22B281F6C4038008FDD79 /* Classic BingoTests */,
+				9ED22B331F6C4038008FDD79 /* Classic BingoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ED22B111F6C4038008FDD79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED22B231F6C4038008FDD79 /* LaunchScreen.storyboard in Resources */,
+				9ED22B201F6C4038008FDD79 /* Assets.xcassets in Resources */,
+				9ED22B1E1F6C4038008FDD79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED22B271F6C4038008FDD79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED22B321F6C4038008FDD79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ED22B0F1F6C4038008FDD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED22B1B1F6C4038008FDD79 /* SecondViewController.swift in Sources */,
+				9ED22B171F6C4038008FDD79 /* AppDelegate.swift in Sources */,
+				9ED22B191F6C4038008FDD79 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED22B251F6C4038008FDD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED22B2E1F6C4038008FDD79 /* Classic_BingoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED22B301F6C4038008FDD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED22B391F6C4038008FDD79 /* Classic_BingoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ED22B2B1F6C4038008FDD79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ED22B121F6C4038008FDD79 /* Classic Bingo */;
+			targetProxy = 9ED22B2A1F6C4038008FDD79 /* PBXContainerItemProxy */;
+		};
+		9ED22B361F6C4038008FDD79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ED22B121F6C4038008FDD79 /* Classic Bingo */;
+			targetProxy = 9ED22B351F6C4038008FDD79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9ED22B1C1F6C4038008FDD79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ED22B1D1F6C4038008FDD79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9ED22B211F6C4038008FDD79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ED22B221F6C4038008FDD79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ED22B071F6C3F41008FDD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		9ED22B081F6C3F41008FDD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		9ED22B3C1F6C4038008FDD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 29M4UP8XVQ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Classic Bingo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jhayes.Classic-Bingo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9ED22B3D1F6C4038008FDD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 29M4UP8XVQ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Classic Bingo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jhayes.Classic-Bingo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ED22B3F1F6C4038008FDD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 29M4UP8XVQ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Classic BingoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jhayes.Classic-BingoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Classic Bingo.app/Classic Bingo";
+			};
+			name = Debug;
+		};
+		9ED22B401F6C4038008FDD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 29M4UP8XVQ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Classic BingoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jhayes.Classic-BingoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Classic Bingo.app/Classic Bingo";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ED22B421F6C4038008FDD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 29M4UP8XVQ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Classic BingoUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jhayes.Classic-BingoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Classic Bingo";
+			};
+			name = Debug;
+		};
+		9ED22B431F6C4038008FDD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 29M4UP8XVQ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Classic BingoUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jhayes.Classic-BingoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Classic Bingo";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ED22B061F6C3F40008FDD79 /* Build configuration list for PBXProject "Classic Bingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED22B071F6C3F41008FDD79 /* Debug */,
+				9ED22B081F6C3F41008FDD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ED22B3B1F6C4038008FDD79 /* Build configuration list for PBXNativeTarget "Classic Bingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED22B3C1F6C4038008FDD79 /* Debug */,
+				9ED22B3D1F6C4038008FDD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9ED22B3E1F6C4038008FDD79 /* Build configuration list for PBXNativeTarget "Classic BingoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED22B3F1F6C4038008FDD79 /* Debug */,
+				9ED22B401F6C4038008FDD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9ED22B411F6C4038008FDD79 /* Build configuration list for PBXNativeTarget "Classic BingoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED22B421F6C4038008FDD79 /* Debug */,
+				9ED22B431F6C4038008FDD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ED22B031F6C3F40008FDD79 /* Project object */;
+}
