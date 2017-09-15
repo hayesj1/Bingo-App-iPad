@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Classic Bingo
 //
-//  Created by Jacob Hayes on 9/15/17.
-//
+//  Created by Jacob Hayes on 9/14/17.
+//  Copyright © 2017 Jacob Hayes. All rights reserved.
 //
 
 import UIKit

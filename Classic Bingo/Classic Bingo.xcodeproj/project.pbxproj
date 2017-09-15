@@ -35,12 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9ED22B091F6C3F93008FDD79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9ED22B0A1F6C3F93008FDD79 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
-		9ED22B0B1F6C3F93008FDD79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9ED22B0C1F6C3F93008FDD79 /* BingoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoViewController.swift; sourceTree = "<group>"; };
-		9ED22B0D1F6C3F93008FDD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9ED22B0E1F6C3F93008FDD79 /* UserPrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPrefsViewController.swift; sourceTree = "<group>"; };
 		9ED22B131F6C4038008FDD79 /* Classic Bingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classic Bingo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED22B161F6C4038008FDD79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ED22B181F6C4038008FDD79 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -85,12 +79,6 @@
 		9ED22B021F6C3F40008FDD79 = {
 			isa = PBXGroup;
 			children = (
-				9ED22B091F6C3F93008FDD79 /* Assets.xcassets */,
-				9ED22B0A1F6C3F93008FDD79 /* Base.lproj */,
-				9ED22B0B1F6C3F93008FDD79 /* AppDelegate.swift */,
-				9ED22B0C1F6C3F93008FDD79 /* BingoViewController.swift */,
-				9ED22B0D1F6C3F93008FDD79 /* Info.plist */,
-				9ED22B0E1F6C3F93008FDD79 /* UserPrefsViewController.swift */,
 				9ED22B151F6C4038008FDD79 /* Classic Bingo */,
 				9ED22B2C1F6C4038008FDD79 /* Classic BingoTests */,
 				9ED22B371F6C4038008FDD79 /* Classic BingoUITests */,
@@ -695,6 +683,7 @@
 				9ED22B3D1F6C4038008FDD79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ED22B3E1F6C4038008FDD79 /* Build configuration list for PBXNativeTarget "Classic BingoTests" */ = {
 			isa = XCConfigurationList;
@@ -703,6 +692,7 @@
 				9ED22B401F6C4038008FDD79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ED22B411F6C4038008FDD79 /* Build configuration list for PBXNativeTarget "Classic BingoUITests" */ = {
 			isa = XCConfigurationList;
@@ -711,6 +701,7 @@
 				9ED22B431F6C4038008FDD79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
