@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9ED22B171F6C4038008FDD79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED22B161F6C4038008FDD79 /* AppDelegate.swift */; };
-		9ED22B191F6C4038008FDD79 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED22B181F6C4038008FDD79 /* FirstViewController.swift */; };
-		9ED22B1B1F6C4038008FDD79 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED22B1A1F6C4038008FDD79 /* SecondViewController.swift */; };
 		9ED22B1E1F6C4038008FDD79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED22B1C1F6C4038008FDD79 /* Main.storyboard */; };
 		9ED22B201F6C4038008FDD79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED22B1F1F6C4038008FDD79 /* Assets.xcassets */; };
 		9ED22B231F6C4038008FDD79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED22B211F6C4038008FDD79 /* LaunchScreen.storyboard */; };
 		9ED22B2E1F6C4038008FDD79 /* Classic_BingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED22B2D1F6C4038008FDD79 /* Classic_BingoTests.swift */; };
 		9ED22B391F6C4038008FDD79 /* Classic_BingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED22B381F6C4038008FDD79 /* Classic_BingoUITests.swift */; };
+		9EDFD9D41F6DBD990014377B /* BingoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDFD9D21F6DBD990014377B /* BingoViewController.swift */; };
+		9EDFD9D51F6DBD990014377B /* UserPrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDFD9D31F6DBD990014377B /* UserPrefsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,6 @@
 /* Begin PBXFileReference section */
 		9ED22B131F6C4038008FDD79 /* Classic Bingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classic Bingo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED22B161F6C4038008FDD79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9ED22B181F6C4038008FDD79 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		9ED22B1A1F6C4038008FDD79 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		9ED22B1D1F6C4038008FDD79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9ED22B1F1F6C4038008FDD79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ED22B221F6C4038008FDD79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +47,8 @@
 		9ED22B341F6C4038008FDD79 /* Classic BingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Classic BingoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED22B381F6C4038008FDD79 /* Classic_BingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classic_BingoUITests.swift; sourceTree = "<group>"; };
 		9ED22B3A1F6C4038008FDD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EDFD9D21F6DBD990014377B /* BingoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BingoViewController.swift; sourceTree = "<group>"; };
+		9EDFD9D31F6DBD990014377B /* UserPrefsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPrefsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +99,9 @@
 		9ED22B151F6C4038008FDD79 /* Classic Bingo */ = {
 			isa = PBXGroup;
 			children = (
+				9EDFD9D21F6DBD990014377B /* BingoViewController.swift */,
+				9EDFD9D31F6DBD990014377B /* UserPrefsViewController.swift */,
 				9ED22B161F6C4038008FDD79 /* AppDelegate.swift */,
-				9ED22B181F6C4038008FDD79 /* FirstViewController.swift */,
-				9ED22B1A1F6C4038008FDD79 /* SecondViewController.swift */,
 				9ED22B1C1F6C4038008FDD79 /* Main.storyboard */,
 				9ED22B1F1F6C4038008FDD79 /* Assets.xcassets */,
 				9ED22B211F6C4038008FDD79 /* LaunchScreen.storyboard */,
@@ -264,9 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ED22B1B1F6C4038008FDD79 /* SecondViewController.swift in Sources */,
 				9ED22B171F6C4038008FDD79 /* AppDelegate.swift in Sources */,
-				9ED22B191F6C4038008FDD79 /* FirstViewController.swift in Sources */,
+				9EDFD9D41F6DBD990014377B /* BingoViewController.swift in Sources */,
+				9EDFD9D51F6DBD990014377B /* UserPrefsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
